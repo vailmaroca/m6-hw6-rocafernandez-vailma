@@ -1,0 +1,132 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+@import url("https://fonts.googleapis.com/css2?family=Playwrite+AR:wght@100..400&display=swap");
+
+h1, h2, nav {
+  font-family: "Playwrite AR", cursive;
+}
+
+body {
+  background-image: url("https://www.toptal.com/designers/subtlepatterns/uploads/paisley.png");
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+header {
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px 0;
+}
+
+.header_div {
+  width: 80%;
+  height: max-content;
+  display: flex;
+  justify-content: center;
+  position: relative;
+}
+
+header > div > h1 {
+  background-color: #008080;
+  color: white;
+  font-size: 30px;
+  padding: 2px 50px;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  white-space: nowrap;
+}
+
+nav {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  font-size: 25px;
+  margin-bottom: 8px;
+  width: 100%;
+}
+
+nav > li {
+  color: rgb(10, 88, 43);
+  list-style: none;
+  padding: 10px 15px;
+}
+
+main {
+  flex-grow: 1;
+  width: 80%;
+  margin: 5% auto;
+  display: flex;
+  justify-content: center;
+}
+
+.content-wrapper {
+  display: flex;
+  width: 100%;
+}
+
+section {
+  background-color: white;
+  width: 60%;
+  padding: 50px;
+  margin-right: 20px;
+}
+
+.main__text {
+  font-size: 20px;
+  text-align: justify;
+}
+
+figure {
+  height: auto;
+  margin: 0;
+}
+
+aside {
+  background-color: white;
+  padding: 50px;
+  width: 40%;
+  height: max-content;
+  text-align: center;
+}
+
+footer {
+  background-color: gray;
+  border-top: 4px green solid;
+  color: white;
+  height: 40px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  bottom: 0;
+}
+
+.border_divider {
+  border-right: 2px #008080 solid;
+  padding: 0 15px;
+}
+
+img {
+  margin: 10px 0;
+}
+
+.border_line {
+  border-bottom: 3px #008080 solid;
+}
+
+.main_image {
+  margin: 0 10px 10px 0;
+  float: left;
+}
+
+.text_block {
+  margin-top: 10px;
+}
